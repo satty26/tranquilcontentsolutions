@@ -6,21 +6,25 @@ body{
     margin: 0;
     min-width: 100%;
     min-height: 100vh;
+    background-color: #aad8d3;
 }
 
 .head-container{
     padding-left: 10%;
     padding-top: 10%;
-    width: 60%;
-}
-.head-container{
-    font-family: 'Maven Pro', sans-serif;
+    width: 90%;
+    text-align: justify;
 }
 .container-fluid{
     padding: 0;
 }
-.head-container h1{
-    color: #393e46;
+.top-head{
+  font-family: 'Barlow Condensed', sans-serif;
+  padding-top: 7%;
+  padding-left: 5%;
+}
+.top-head h1{
+  color: #393e46;
     font-size: 3.5rem;
     font-weight: 600;
 }
@@ -42,7 +46,42 @@ body{
   text-align: center;
 }
 .head-container h2{
-    padding-top: 10%;
+  font-family: 'Roboto', sans-serif;
+    padding-top: 4%;
     font-size: 2rem;
     font-weight: 400;
+}
+
+
+.carousel-3d-slide{
+  height:unset !important;
+}
+
+.carousel-3d-slide{
+      box-shadow: 0 6px 6px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+.prev[data-v-05517ad0]{
+  left: 244px !important;
+    top: 0px  !important;
+}
+.next[data-v-05517ad0]{
+  right: 225px !important;
+    top: 0px  !important;
+}
+.Next slide span{
+  font-size:20px;
+}
+.carousel-3d-container .next span{
+  font-size:40px;
+}
+.carousel-3d-container .prev  span{
+  font-size:40px;
+}
+.carousel-3d-slide{
+	width:400px !important;
+}
+#example{
+  /* padding-top: 2%; */
+  padding-right: 40px;
+
 }
