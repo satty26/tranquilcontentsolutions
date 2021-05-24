@@ -51,7 +51,17 @@ body{
     font-size: 2rem;
     font-weight: 400;
 }
-
+.hero-buttons{
+  padding-left: 20%;
+  padding-top: 10%;
+}
+.know-more-btn{
+  padding-right: 10%;
+}
+.kmbutton:hover{
+  background-color: #fff;
+  color: #fff;
+}
 
 .carousel-3d-slide{
   height:unset !important;
